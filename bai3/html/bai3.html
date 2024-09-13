@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            font-size: 20px;
+            width: 1200px;
+            margin: auto;
+            border: 1px black solid;
+        }
+        header{
+            background-color: #b04c14;
+            padding: 10px;
+        }
+        header h1{
+            margin: 0px;
+            color: goldenrod;
+            text-shadow: -2px -5px 5px white;
+            margin-left: 10px;
+        }
+        .menu{
+            display: flex;
+            margin: 0px;
+            background-color:antiquewhite;
+            border-bottom: 2px solid gray;
+        }
+        .menu li{
+            list-style: none;
+            margin-right: 40px;
+            width: 10%;
+            padding: 10px;
+        }
+        .menu li:hover{
+            background-color: aqua;
+        }
+        .menu li a{
+            text-decoration: none;
+            color: goldenrod;
+        }
+        .img1{
+            width: 100%;
+        }
+        section{
+            display: flex;
+        }
+        .left{
+            flex: 7;
+            padding: 20px;
+        }
+        .left h3, p{
+            color: goldenrod;
+        }
+        .frm{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        form .ip{
+            width: 80%;
+            border: none;
+            border-bottom: 1px solid;
+            margin-top: 20px;
+            padding: 20px;
+            font-size: 20px;
+        }
+        .btn{
+            width: 25%;
+            margin-top: 40px;
+            padding: 15px;
+            background-color: olive;
+            color: aliceblue;
+        }
+        .btn:hover{
+            background-color: blue;
+        }
+        .right{
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            border-left: 1px solid gray;
+            padding: 10px;
+        }
+        .item1{
+            flex: 5;
+        }
+        .link{
+            margin-top: 30px;
+            background-color: burlywood;
+            box-shadow: 20px;
+            border-radius: 15px 15px 0 0;
+            padding: 5px;
+            width: 90%;
+            color: brown;
+        }
+        .item2{
+            flex: 5;}
+        .img2{
+            margin: 3px;
+            width: 50%;
+            padding: 10px;
+            border: 1px solid gray;
+            float: left;
+        }
+        .img3{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <header>
+                <h1>AUTUMN TRAVEL COMPANY</h1>
+            </header>
+        </div>
+        <div class="box2">
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Order</a></li>
+            </ul>
+        </div>
+        <div class="box3">
+            <img class="img1" src="../img/z5786759011328_31e841caf445cd424ab5894648302dad.jpg" alt="">
+
+        </div>
+        <div class="box4">
+            <section>
+                <div class="left">
+                    <h3>Sign up for membership benefits</h3>
+                    <div class="frm">
+                        <p>
+                            Our philisophical are transparency, respect,
+	                        formality <br>and responsibility. Our stimulus is your enthusiasm. 
+	                        Our <br> motto is your satisfation.
+                        </p>
+                        <form action="">
+                            <input type="text" class="ip" placeholder="Username">
+                            <input type="text" class="ip"placeholder="Email">
+                            <input type="text" class="ip"placeholder="Password">
+                            <input type="text" class="ip"placeholder="Retype password">
+                        </form>
+                        <button class="btn">SIGN ME UP</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="item1">
+                        <div class="link">
+                            <h3>Links</h3>
+                            <ul class="list">
+                                <li>Make your Own Tour</li>
+                                <li>Maldives Tours</li>
+                                <li>Nature & Adventure</li>
+                                <li>Readymade Tours</li>
+                                <li>Europe Tours</li>
+                                <li>Rusia Tours</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <div class="more">
+                            <h3>More info</h3>
+                            <div class="item3">
+                                <img class="img2" src="../img/lavang.jpg" alt="">
+                                <p style="font-size: larger; color: black;">Our purpose is the client who gives to us 
+                                    the opportunites to serve 
+                                    and to make known the reality arround the world</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="box5">
+            <footer>
+                <img src="../img/footer.jpg" alt="" class="img3">
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
